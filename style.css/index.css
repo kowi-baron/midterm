@@ -1,0 +1,75 @@
+body {
+  font-family: "Vesper Libre";
+  color: #1a1a1a;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header, footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+image {
+  width: 100%;
+}
+
+#logo {
+  width: 100px;
+  padding-top: 8px;
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.3;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.news + article {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: .85rem;
+  border-bottom: 2px solid #ff3530;
+}
+
+figcaption, .news + article , .subtitle, .author, .date , h2 {
+font-family: "Open Sans";
+}
+
+.author, .date {
+  font-size: .85rem;
+  margin-bottom: 0;
+}
+
+figure {
+  margin: 1.25em 0;
+}
+
+figcaption {
+  font-size: .75rem;
+  text-align: center;
+  color: #757575;
+  font-style: italic;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  color: #1a1a1a;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ff3530;
+}
+
