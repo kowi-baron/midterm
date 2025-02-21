@@ -38,7 +38,7 @@ h1 {
 
 }
 
-.figcaption, .news, .sub-title, .author, .date, .h2 {
+figcaption, .news, .subtitle, .author, .date, h2 {
   font-family: "Open Sans";
 }
 
@@ -48,7 +48,7 @@ h1 {
 }
 
 figure {
-  margin: 1.25em ,0;
+  margin: 1.25em 0;
 }
 
 figcaption {
